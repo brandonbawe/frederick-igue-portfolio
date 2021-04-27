@@ -15,7 +15,7 @@ body {
 
 .logo {
   font-size: 20px;
-  font-family: 'Freckle Face', cursive;
+  font-family: "Freckle Face", cursive;
   font-weight: 900;
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 .header ul:first-of-type {
-  width: 20%;
+  width: 10%;
 }
 
 .header ul {
@@ -108,58 +108,10 @@ h3 {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
-.main .services-section {
-  width: 95%;
-  margin: 0 auto;
-  padding: 4rem;
-}
-
-.main .services-section-heading .heading-sub {
-  color: #929295;
-  text-align: center;
-}
-
-.main .services-section-heading .heading-main {
-  text-align: center;
-  font-size: 30px;
-}
-
-.main .services-section .services-container {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding-top: 4rem;
-}
-
-.main .services-section .services-container .service-card {
-  width: 30%;
-  padding: 1rem;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-}
-
-.main .services-section .services-container .service-card h3,
-.main .services-section .services-container .service-card p {
-  padding-bottom: 1rem;
-}
-
-.main .services-section .services-container .service-card p {
-  color: #929295;
-}
-
-.main .services-section .services-container .service-card a {
-  color: #5f40e4;
-  text-decoration: none;
-  padding-bottom: 0.2rem;
-}
-
-.main .services-section .services-container .service-card a:hover {
-  border-bottom: 3px solid #5f40e4;
-  transition: all 0.2s;
-}
-
 .main .about-me-section {
   width: 85%;
   display: flex;
+  padding-top: 13rem;
   justify-content: space-between;
   margin: 0 auto;
 }
@@ -299,7 +251,8 @@ h3 {
   color: #fff;
 }
 
-.contact-me-form input, .contact-me-form textarea {
+.contact-me-form input,
+.contact-me-form textarea {
   display: block;
   width: 75%;
   padding: 1rem 0rem;
@@ -343,4 +296,82 @@ h3 {
 .assignment-one-content ul,
 .assignment-two-content ul {
   padding-bottom: 2rem;
+}
+
+.user-survey-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.user-survey-container .user-survey-content {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-survey-container .user-survey-content .user-survey-img {
+  width: 60%;
+  padding: 0.6rem;
+  border-radius: 10px;
+  border: 5px solid #f3d094;
+}
+
+.user-survey-container .user-survey-content .user-survey-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.user-survey-container .user-survey-content .user-survey-text {
+  width: 50%;
+  padding-left: 2rem;
+}
+
+.user-survey-container .user-survey-content .user-survey-text .btn {
+  text-decoration: none;
+}
+
+.user-survey-container .user-survey-content .user-survey-text h1 {
+  color: #5f40e4;
+}
+
+.user-survey-container .user-survey-content .user-survey-text p {
+  color: #929295;
+  padding-bottom: 2rem;
+}
+
+.assignment-four-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 3rem 0;
+  background-color: #f3d094;
+  border-radius: .6rem;
+}
+
+.assignment-four-container .assignment-four-content {
+  width: 100%;
+}
+
+.assignment-four-container .assignment-four-content .assignment-four-media-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.assignment-four-container .assignment-four-content .assignment-four-media-container img {
+  width: 15rem;
+}
+
+.assignment-four-main-heading {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.assignment-four-buttons {
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.assignment-four-buttons .btn {
+  text-decoration: none;
 }
