@@ -21,7 +21,7 @@ body {
 
 .header {
   width: 100%;
-  padding-top: 3rem;
+  padding: 3rem 0;
 }
 
 .header nav {
@@ -198,6 +198,7 @@ h3 {
   border-radius: 5px;
   background-color: transparent;
   margin: 1rem 0;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 .btn a {
@@ -310,4 +311,36 @@ h3 {
 .contact-me-form ::placeholder {
   color: #929295;
   font-family: "Nunito Sans", sans-serif;
+}
+
+.assignment-one-content,
+.assignment-two-content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.assignment-one-content .main-heading,
+.assignment-two-content .main-heading {
+  font-size: 22px;
+  font-weight: 800;
+  color: #5f40e4;
+}
+
+.assignment-one-content .heading,
+.assignment-two-content .heading {
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+.assignment-one-content h1,
+.assignment-two-content h1 {
+  padding: 1rem 0;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.assignment-one-content ul,
+.assignment-two-content ul {
+  padding-bottom: 2rem;
 }
