@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Nunito+Sans:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.logo {
+  font-size: 20px;
+  font-family: 'Freckle Face', cursive;
+  font-weight: 900;
+}
+
+.header {
+  width: 100%;
+  padding-top: 3rem;
+}
+
+.header nav {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header ul:first-of-type {
+  width: 20%;
+}
+
+.header ul {
+  width: 13%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header ul li {
+  list-style-type: none;
+}
+
+.header ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.header ul li a:hover {
+  color: #f3d094;
+  transition: all 0.3s;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Coda Caption", sans-serif;
+}
+
+.main {
+  width: 100%;
+}
+
+.main .hero-section {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 4rem;
+}
+
+.main .hero-section .hero-section-text {
+  width: 50%;
+}
+
+.main .hero-section .hero-section-text .heading-main {
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: #5f40e4;
+}
+
+.main .hero-section .hero-section-text .heading-sub {
+  color: #000;
+  font-size: 25px;
+}
+
+.main .hero-section .hero-section-text p {
+  color: #929295;
+}
+
+.main .hero-section .hero-section-img {
+  width: 45%;
+  height: 20rem;
+  background-color: #5f40e4;
+  position: relative;
+}
+
+.main .hero-section .hero-section-img img {
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.main .services-section {
+  width: 95%;
+  margin: 0 auto;
+  padding: 4rem;
+}
+
+.main .services-section-heading .heading-sub {
+  color: #929295;
+  text-align: center;
+}
+
+.main .services-section-heading .heading-main {
+  text-align: center;
+  font-size: 30px;
+}
+
+.main .services-section .services-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 4rem;
+}
+
+.main .services-section .services-container .service-card {
+  width: 30%;
+  padding: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.main .services-section .services-container .service-card h3,
+.main .services-section .services-container .service-card p {
+  padding-bottom: 1rem;
+}
+
+.main .services-section .services-container .service-card p {
+  color: #929295;
+}
+
+.main .services-section .services-container .service-card a {
+  color: #5f40e4;
+  text-decoration: none;
+  padding-bottom: 0.2rem;
+}
+
+.main .services-section .services-container .service-card a:hover {
+  border-bottom: 3px solid #5f40e4;
+  transition: all 0.2s;
+}
+
+.main .about-me-section {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.main .about-me-section-text {
+  width: 52%;
+}
+
+.main .about-me-section-text h3 {
+  padding-bottom: 1rem;
+}
+
+.main .about-me-section-text p {
+  padding-bottom: 1rem;
+}
+
+.main .about-me-section-text .btn-primary {
+  margin: 1rem 0;
+}
+
+.main .about-me-section-text .btn-primary:hover {
+  cursor: pointer;
+}
+
+.main .about-me-section-img {
+  width: 45%;
+  background-image: url(../images/about-me-image.jpeg);
+  background-size: cover;
+  border-radius: 5px;
+  border: 6px solid #f3d094;
+}
+
+.btn {
+  padding: 1rem 2.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  margin: 1rem 0;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #5f40e4;
+}
+
+.btn-primary a {
+  font-size: 16px;
+}
+
+.btn-secondary {
+  background-color: #f3d094;
+}
+
+.btn-secondary a {
+  color: #000;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 5rem;
+  background-color: #27282f;
+  padding: 4rem 0;
+}
+
+.footer-inner {
+  width: 85%;
+  color: #fff;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 3rem;
+  border-top: 1px solid #fff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-inner ul:first-of-type {
+  width: 55%;
+}
+
+.footer-inner ul {
+  width: 13%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-inner ul li {
+  list-style-type: none;
+}
+
+.footer-inner ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-inner ul li a:hover {
+  color: #f3d094;
+  transition: all 0.3s;
+}
+
+.footer-inner ul li a svg:hover {
+  fill: #f3d094;
+}
+
+.contact-me {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  padding: 5rem 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-me-text {
+  width: 30%;
+}
+
+.contact-me-text p {
+  padding-top: 1rem;
+}
+
+.contact-me-form {
+  width: 60%;
+  height: 30rem;
+  background-color: #5f40e4;
+  padding: 3rem 5rem;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.contact-me-form h2 {
+  color: #fff;
+}
+
+.contact-me-form input, .contact-me-form textarea {
+  display: block;
+  width: 75%;
+  padding: 1rem 0rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+}
+
+.contact-me-form ::placeholder {
+  color: #929295;
+  font-family: "Nunito Sans", sans-serif;
+}
